@@ -11,8 +11,8 @@
 2) Calculation for the major sub-elements for the proposed methods[the progress are applied to the IRM_ver1_experiment.py and IRM_rev_experiment.py]
 The characteristics of progress of calculating one of the sub-elements representing noise-level (error) of the dataset is summarized bellow:
 
-I replace the loss function from MSE to NLL by considering that only binary classification problem is treated for this project.
-I use the trained models for previous restart as the 'extra model' which is described on the paper (for every restart, model and enviornments are defined newly) 
+- I replace the loss function from MSE to NLL by considering that only binary classification problem is treated for this project.
+- I use the trained models for previous restart as the 'extra model' which is described on the paper (for every restart, model and enviornments are defined newly) 
 
 
 ## description for py.file
