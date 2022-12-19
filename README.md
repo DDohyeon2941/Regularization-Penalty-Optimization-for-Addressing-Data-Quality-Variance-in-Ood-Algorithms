@@ -1,4 +1,10 @@
-# Regularization-Penalty-Optimization-for-Addressing-Data-Quality-Variance-in-Ood-Algorithms
+# Title: Regularization-Penalty-Optimization-for-Addressing-Data-Quality-Variance-in-Ood-Algorithms
+# The py. files for this project are designed based on the 
+
+1) https://github.com/facebookresearch/InvariantRiskMinimization/blob/main/code/colored_mnist/main.py
+2) https://github.com/kakaobrain/irm-empirical-study/tree/master/colored_mnist
+
+
 # description py.file
 ## 1) Base_experiment.py : Experiment without considering the OOD generalization
 ## 2) IRM_experiment.py : Experiment with IRM algorithm which is the base model for this paper
