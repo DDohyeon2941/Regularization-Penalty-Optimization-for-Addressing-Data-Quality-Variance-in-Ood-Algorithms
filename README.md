@@ -8,6 +8,13 @@
 
 1) Most of the progress of making enviornments is designed following the code that uploaded on the url above(especially train dataset vs test dataset). However additional progress is added to making enviornments based on train dataset. Differently with the original code where the degree of switching labels are same for both enviornments (25%), I modified the degree to 0% and 50% for each enviornment to make the difference of data quality clearly.
 
+2) Calculation for the major sub-elements for the proposed methods[the progress are applied to the IRM_ver1_experiment.py and IRM_rev_experiment.py]
+The characteristics of progress of calculating one of the sub-elements representing noise-level (error) of the dataset is summarized bellow:
+
+I replace the loss function from MSE to NLL by considering that only binary classification problem is treated for this project.
+I use the trained models for previous restart as the 'extra model' which is described on the paper (for every restart, model and enviornments are defined newly) 
+
+
 ## description for py.file
 1) Base_experiment.py : Experiment without considering the OOD generalization
 2) IRM_experiment.py : Experiment with IRM algorithm which is the base model for this paper
