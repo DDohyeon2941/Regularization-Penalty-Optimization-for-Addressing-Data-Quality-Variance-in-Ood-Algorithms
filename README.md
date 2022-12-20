@@ -4,9 +4,9 @@
 1) https://github.com/facebookresearch/InvariantRiskMinimization/blob/main/code/colored_mnist/main.py
 2) https://github.com/kakaobrain/irm-empirical-study/tree/master/colored_mnist
 
-## Brief Deiscription for code implementation
+## Brief Description for code implementation
 
-1) Most of the progress of making enviornments is designed following the code that uploaded on the url above(especially train dataset vs test dataset). However additional progress is added to making enviornments based on train dataset. Differently with the original code where the degree of switching labels are same for both enviornments (25%), I modified the degree to 0% and 50% for each enviornment to make the difference of data quality clearly.
+1) Most of the progress of making environments is designed following the code that uploaded on the url above(especially train dataset vs test dataset). However additional progress is added to making environments based on train dataset. Differently with the original code where the degree of switching labels are same for both environments (25%), I modified the degree to 0% and 50% for each enviornment to make the difference of data quality clearly.
 
 2) Calculation for the major sub-elements for the proposed methods[the progress are applied to the IRM_ver1_experiment.py and IRM_rev_experiment.py]
 The characteristics of progress of calculating one of the sub-elements representing noise-level (error) of the dataset is summarized bellow:
